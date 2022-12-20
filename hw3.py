@@ -1,32 +1,38 @@
-a1 = (1, 'aaa', 2)
-a2 = (1, 'aaa', 2)
-a3 = (1, 'aaa', 2)
+a_1 = (1, 'aaa', 2)
+a_2 = (1, 'aaa', 2)
+a_3 = (1, 'aaa', 2)
 
-print(a1 == a2 == a3)
-print(a1 is a2 is a3)
+print(a_1 == a_2 == a_3)
+print(a_1 is a_2 is a_3)
 
-print(a1)
-print(a2)
-print(a3)
+print(a_1)
+print(a_2)
+print(a_3)
 
-print(id(a1))
-print(id(a2))
-print(id(a3))
+print(id(a_1))
+print(id(a_2))
+print(id(a_3))
 
-a4 = [1, 'aaa', 2]
-a5 = [1, 'aaa', 2]
+a_4 = [1, 'aaa', 2]
+a_5 = [1, 'aaa', 2]
 
-print(a4 == a5)
-print(a4 is a5)
+print(a_4 == a_5)
+print(a_4 is a_5)
 
-print(a4)
-print(a5)
+print(a_4)
+print(a_5)
 
-print(id(a4))
-print(id(a5))
+print(id(a_4))
+print(id(a_5))
 
-a1 = (1, 'aaa', 2)
-a2 = (1, 'aaa', 2)
-a3 = (1, 'aaa', 2)
-a4 = [1, 'aaa', 2]
-a5 = [1, 'aaa', 2]
+a1 = tuple(a_1)
+a2 = tuple(a_2)
+a3 = tuple(a_3)
+a4 = list(a_4)
+a5 = list(a_5)
+
+print(a_1)
+print(a_2)
+print(a_3)
+print(a_4)
+print(a_5)
