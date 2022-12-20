@@ -13,8 +13,6 @@ print(id(a1))
 print(id(a2))
 print(id(a3))
 
-
-
 a4 = [1, 'aaa', 2]
 a5 = [1, 'aaa', 2]
 
@@ -26,3 +24,9 @@ print(a5)
 
 print(id(a4))
 print(id(a5))
+
+a1 = (1, 'aaa', 2)
+a2 = (1, 'aaa', 2)
+a3 = (1, 'aaa', 2)
+a4 = [1, 'aaa', 2]
+a5 = [1, 'aaa', 2]
