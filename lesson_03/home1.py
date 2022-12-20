@@ -31,6 +31,12 @@ a_3 = list(a_3)
 a_4 = tuple(a_4)
 a_5 = tuple(a_5)
 
+print(type(a_1))
+print(type(a_2))
+print(type(a_3))
+print(type(a_4))
+print(type(a_5))
+
 print(id(a_1))
 print(id(a_2))
 print(id(a_3))
