@@ -1,3 +1,5 @@
+sourceFile = open('python4.txt', 'w')
+
 sentence = input('Введите два слова:')
 sentence_1 = sentence.split()
 
@@ -22,12 +24,11 @@ x_3 = (f'{word_1} {word_2}')
 first = '!'
 x_1 = (first + x_1)
 x_2 = (first + x_2)
-x_2 = (first + x_2)
+x_3 = (first + x_3)
 
 last = '?'
 x_1 = (x_1 + last)
 x_2 = (x_2 + last)
-x_2 = (x_3 + last)
+x_3 = (x_3 + last)
 
 print(x_1, x_2, x_3, sep='<<<>>>')
-sourceFile = open('python4.txt', 'w')
