@@ -24,6 +24,11 @@ x_1 = (first + x_1)
 x_2 = (first + x_2)
 x_2 = (first + x_2)
 
+last = '?'
+x_1 = (x_1 + last)
+x_2 = (x_2 + last)
+x_2 = (x_3 + last)
+
 print(x_1, end='?')
 print(x_2, end='?')
 print(x_3, end='?')
