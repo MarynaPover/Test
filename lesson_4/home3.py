@@ -29,9 +29,5 @@ x_1 = (x_1 + last)
 x_2 = (x_2 + last)
 x_2 = (x_3 + last)
 
-print(x_1, end='?')
-print(x_2, end='?')
-print(x_3, end='?')
-
-print(x_1,
+print(x_1, x_2, x_3, sep='<<<>>>')
 sourceFile = open('python4.txt', 'w')
