@@ -19,8 +19,14 @@ x_1 = ('%s %s' % (word_1, word_2))
 x_2 = ('{} {}'.format(word_1, word_2))
 x_3 = (f'{word_1} {word_2}')
 
-print(x_1)
-print(x_2)
-print(x_3)
+first = '!'
+x_1 = (first + x_1)
+x_2 = (first + x_2)
+x_2 = (first + x_2)
 
+print(x_1, end='?')
+print(x_2, end='?')
+print(x_3, end='?')
+
+print(x_1,
 sourceFile = open('python4.txt', 'w')
