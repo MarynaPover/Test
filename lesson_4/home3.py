@@ -1,4 +1,4 @@
-sourceFile = open('python4.txt', 'w')
+sourceFile = open('python3.txt', 'w')
 
 sentence = input('Введите два слова:')
 sentence_1 = sentence.split()
