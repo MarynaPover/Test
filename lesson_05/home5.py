@@ -6,7 +6,7 @@ else:
     n = int(n)
     while n > 0:
         if % 3 != 0:
-            result += n**3
+            result += n ** 3
     print('n:', n)
     print('result:', result)
     n -= 1
