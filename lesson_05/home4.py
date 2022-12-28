@@ -11,3 +11,6 @@ while True:
         print(f'Что желаете {name}?')
     else:
         print(f'{name}, вы лжете - в наше время столько не живут...')
+    answer = input('Желаете выйти? (Д/Y)')
+    if answer.upper() in ('Y', 'Д'):
+            break
