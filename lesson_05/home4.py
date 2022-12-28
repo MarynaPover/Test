@@ -10,4 +10,4 @@ elif 10 <= int(age) <= 18:
 elif 18 < int(age) < 100:
     print(f'Что желаете {name}?')
 else:
-    print('Beer')
+    print(f'{name}, вы лжете - в наше время столько не живут...')
