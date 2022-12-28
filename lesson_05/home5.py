@@ -2,7 +2,7 @@ result = 0
 n = input("Число: ")
 if not n.isdigit() or int(n) <= 0:
     print('Wrong input')
-elif:
+else:
     n = int(n)
     while n > 0:
         if n % 3 != 0:
