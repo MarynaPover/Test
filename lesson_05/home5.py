@@ -3,7 +3,7 @@ n = input("Число: ")
 if not n.isdigit() or int(n) <= 0:
     print('Wrong input')
 else:
-    while n > 0:
+    while int(n) > 0:
         if n % 3 != 0:
             result += n**3
     print('n:', n)
