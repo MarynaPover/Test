@@ -7,5 +7,7 @@ elif int(age) < 10:
     print(f'Привет, шкет {name}')
 elif 10 <= int(age) <= 18:
     print(f'Как жизнь {name}?')
+elif 18 < int(age) < 100:
+    print(f'Что желаете {name}?')
 else:
     print('Beer')
