@@ -1,6 +1,6 @@
 value = 1
 result = 0
-num = int(input("Число: "))
+num = int(input("Введите число: "))
 
 for item in range(value, num+1):
     if item % 3 != 0:
