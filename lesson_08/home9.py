@@ -1,3 +1,3 @@
-fun_1 = lambda x: if x % 2 == 0 print 'чeтное' else print('нечeтное')
+fun = lambda x: print('чeтное') if x % 2 == 0 else print('нечeтное')
 x = int(input("Введите число: "))
-print(fun_1(2))
+print(fun(x))
