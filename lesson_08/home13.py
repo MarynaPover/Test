@@ -5,9 +5,9 @@ def play_game():
    guess_count = 1
    while secret_num != guess:
       if guess > secret_num:
-         guess = int(input("Попробуй меньшее число: "))
+         guess = int(input("Попробуйте меньшее число: "))
       elif guess < secret_num:
-         guess = int(input("Попробуй большее число: "))
+         guess = int(input("Попробуйте большее число: "))
       guess_count += 1
    print(f"Поздравляем! Вы угадали загаданное число за {guess_count} попыток")
 play_game()
