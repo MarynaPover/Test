@@ -1,13 +1,13 @@
 from random import randint
 def play_game():
-   secret_number = randint(1, 1000)
-   guess = int(input("Guess a number between 1 and 1000: "))
+   secret_num = randint(1, 1000)
+   guess = int(input("Угадайте число в диапазоне от 1 до 1000: "))
    guess_count = 1
-   while secret_number != guess:
-      if guess > secret_number:
-         guess = int(input("Guess a lower number: "))
-      elif guess < secret_number:
-         guess = int(input("Guess a higher number: "))
+   while secret_num != guess:
+      if guess > secret_num:
+         guess = int(input("Попробуй меньшее число: "))
+      elif guess < secret_num:
+         guess = int(input("Попробуй большее число: "))
       guess_count += 1
-   print(f"Yay! You won in {guess_count} turns!")
+   print(f"Поздравляем! Вы угадали загаданное число за {guess_count} попыток")
 play_game()
